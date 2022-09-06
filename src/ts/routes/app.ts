@@ -1,6 +1,6 @@
 
 // URL for the API
-export const baseURL = 'http://localhost:443'; //https://api.stroom.martvanweeghel.nl
+export const baseURL = 'https://api.stroom.martvanweeghel.nl'; //https://api.stroom.martvanweeghel.nl
 
 // Routes for the app
 export const appPath = {
