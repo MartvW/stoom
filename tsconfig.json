@@ -6,6 +6,32 @@
       "dom.iterable",
       "esnext"
     ],
+    "paths": {
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@sass/*": [
+        "./src/sass/*"
+      ],
+      "@api/*": [
+        "./src/ts/api/*"
+      ],
+      "@components/*": [
+        "./src/ts/components/*"
+      ],
+      "@routes/*": [
+        "./src/ts/routes/*"
+      ],
+      "@hooks/*": [
+        "./src/ts/hooks/*"
+      ],
+      "@repository/*": [
+        "./src/ts/repository/*"
+      ],
+      "@utils/*": [
+        "./src/ts/utils/*"
+      ]
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
